@@ -1,0 +1,12 @@
+Source: ros-hydro-object-recognition-tod
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-hydro-catkin, ros-hydro-cmake-modules, ros-hydro-ecto, ros-hydro-object-recognition-core, ros-hydro-opencv-candidate
+Homepage: http://wg-perception.github.io/tod/
+Standards-Version: 3.9.2
+
+Package: ros-hydro-object-recognition-tod
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-ecto, ros-hydro-ecto-opencv, ros-hydro-ecto-openni, ros-hydro-object-recognition-core, ros-hydro-opencv-candidate
+Description: Textured Object Recognition a standard bag of features approach
