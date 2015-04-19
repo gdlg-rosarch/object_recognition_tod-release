@@ -1,0 +1,12 @@
+Source: ros-jade-object-recognition-tod
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-jade-catkin, ros-jade-cmake-modules, ros-jade-ecto, ros-jade-object-recognition-core, ros-jade-opencv-candidate
+Homepage: http://wg-perception.github.io/tod/
+Standards-Version: 3.9.2
+
+Package: ros-jade-object-recognition-tod
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-ecto, ros-jade-ecto-opencv, ros-jade-ecto-openni, ros-jade-object-recognition-core, ros-jade-opencv-candidate
+Description: Textured Object Recognition a standard bag of features approach
