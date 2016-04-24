@@ -1,0 +1,12 @@
+Source: ros-kinetic-object-recognition-tod
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-ecto, ros-kinetic-object-recognition-core, ros-kinetic-opencv-candidate
+Homepage: http://wg-perception.github.io/tod/
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-object-recognition-tod
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-ecto, ros-kinetic-ecto-opencv, ros-kinetic-ecto-openni, ros-kinetic-object-recognition-core, ros-kinetic-opencv-candidate
+Description: Textured Object Recognition a standard bag of features approach
