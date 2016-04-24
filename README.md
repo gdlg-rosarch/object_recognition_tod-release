@@ -1,3 +1,26 @@
+## object_recognition_tod (kinetic) - 0.5.6-0
+
+The packages in the `object_recognition_tod` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic object_recognition_tod` on `Sun, 24 Apr 2016 11:21:31 -0000`
+
+The `object_recognition_tod` package was released.
+
+Version of package(s) in repository `object_recognition_tod`:
+
+- upstream repository: https://github.com/wg-perception/tod.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.5.6-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## object_recognition_tod (jade) - 0.5.5-0
 
 The packages in the `object_recognition_tod` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade object_recognition_tod` on `Sun, 19 Apr 2015 12:00:13 -0000`
